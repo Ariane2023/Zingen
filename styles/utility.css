@@ -1,0 +1,45 @@
+.py-base {
+  padding-block:var(--py-base) ;/*define o eixo vertical*/
+}
+.py-lg {
+  padding-block:var(--py-lg) ;/*define o eixo vertical*/
+}
+.py-xl {
+  padding-block:var(--py-xl) ;/*define o eixo vertical*/
+}
+
+.px-lg {
+  padding-inline: var(--px-lg); /*eixo horizontal*/
+}
+
+.container {
+  --max-width: 375px;
+  width: min(var(--max-width), 100% - var(--px-lg) * 2);
+  margin: auto;
+  border: solid violet;
+}
+
+.desktop-only {
+  display: none; /*desaparece a tag do desktop*/
+}
+
+/*Colunas constantes*/
+.even-columns {
+  display: grid;
+  gap: 1rem;
+}
+
+@media (width >=80em) {
+  .container {
+    --max-width: 80em;
+  }
+
+  .desktop-only {
+    display: initial;/*Aparece a tag do desktop*/
+  }
+
+  .even-columns {
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+  }
+}

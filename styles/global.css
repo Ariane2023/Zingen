@@ -30,6 +30,11 @@
   --fs-lg: 1.25rem;/*H3*/
   --fs-xl: 1.5rem; /*H2*/
   --fs-2xl: 2.5rem; /*H1*/  
+
+  --py-base: 1rem; /*margen do eixo y*/
+  --py-lg: 1.5rem;
+  --py-xl: 3rem;
+  --px-lg: 1.5rem;/*margen do eixo x*/
 }
 
 html {
@@ -76,6 +81,12 @@ ul[role="list"] {
   :root {
     --fs-lg: 2rem;/*H3*/
     --fs-xl: 3rem; /*H2*/
-    --fs-2xl: 4rem; /*H1*/  
+    --fs-2xl: 4rem; /*H1*/ 
+    
+    --py-base: 1.5rem; /*margen do eixo y*/
+    --py-lg: 2.5rem;
+    --py-xl: 5rem;
+    --px-lg: 2rem;
+
   }
 }
