@@ -36,6 +36,7 @@
   --py-base: 1rem; /*margen do eixo y*/
   --py-lg: 1.5rem;
   --py-xl: 3rem;
+
   --px-lg: 1.5rem;/*margen do eixo x*/
 }
 
@@ -55,7 +56,7 @@ h1, h2, h3 {
   line-height: 1.2;
   color: var(--text-color-primary);
   font-weight: var(--fw-bold);
-  letter-spacing: -0.04em;
+  letter-spacing: -0.04rem;
 }
 
 h1 {
