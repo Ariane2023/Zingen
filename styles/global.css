@@ -31,7 +31,9 @@
   --fs-base: 1rem; /*Paragraph*/
   --fs-lg: 1.25rem;/*H3*/
   --fs-xl: 1.5rem; /*H2*/
-  --fs-2xl: 2.5rem; /*H1*/  
+  --fs-2xl: 2.5rem; /*H1*/
+  
+  --fs-price-2: 2.5rem;
 
   --py-base: 1rem; /*margen do eixo y*/
   --py-lg: 1.5rem;
