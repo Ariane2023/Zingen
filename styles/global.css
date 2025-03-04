@@ -50,7 +50,11 @@ html {
   color: var(--text-color-primary);
 
   overflow-x: hidden;/*O eixo horizontal não vai ter rolagem*/
+
+  scroll-behavior: smooth;
+
 }
+
 
 body {
   background-color: var(--bg-color);
