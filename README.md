@@ -2,17 +2,18 @@
 ![image](https://github.com/user-attachments/assets/84b152bb-9e5d-4957-b666-4742cc831085)
 
 
-Tecnologias Utilizadas:
-HTML5
-CSS3
-Estrutura de Pastas:
+## Tecnologias Utilizadas:
+- HTML5
+- CSS3
+### Estrutura de Pastas:
 index.html: Arquivo HTML principal.
 styles/index.css: Arquivos de estilos CSS.
 assets/: Pasta com imagens, ícones e outros recursos.
-Como Executar:
+### Como Executar:
 Basta abrir o arquivo index.html em qualquer navegador moderno.
-Responsividade:
-O site é responsivo e se adapta a diferentes tamanhos de tela.
+![image](https://github.com/user-attachments/assets/8e6c0976-58a1-4992-8ed3-5d8f1254efa1)
+
+### O site é responsivo e se adapta a diferentes tamanhos de tela.
 Funcionalidades:
 A remoção de voz por IA, a pontuação de performance e a gravação de performances.
 Design:
